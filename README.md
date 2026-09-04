@@ -45,3 +45,42 @@ sequence_detector.v
 tb.v
 synthesized.v
 ```
+# 2. RTL Simulation
+The RTL design was simulated using Icarus Verilog to verify the functional behavior of the sequence detector.
+
+The simulation output was observed for different input sequences and the detected output was verified.
+
+# 3. Waveform Analysis
+The generated VCD file was opened using GTKWave to analyze the simulation waveforms.
+
+# RTL Waveform
+ <img width="1920" alt="dut" src="https://github.com/user-attachments/assets/3498101f-ee30-40b9-9c9e-da93bc35d961" />
+
+# 4. RTL Synthesis
+The RTL design was synthesized using Yosys.
+
+The synthesized design was successfully converted into a gate-level representation, and synthesis statistics were obtained.
+
+# Synthesis Statistics
+
+<img width="1920"  alt="stats" src="https://github.com/user-attachments/assets/bf860756-d785-47f6-bf02-43b226473306" />
+
+# Synthesized Netlist
+
+<img width="1920" alt="ggraphical" src="https://github.com/user-attachments/assets/0b1e49dd-2a02-40dd-8069-bbcc37ef61e4" />
+
+# 7. Gate-Level Simulation
+Gate-Level Simulation (GLS) was performed using the synthesized netlist.
+
+The GLS waveform was analyzed using GTKWave to verify the behavior of the synthesized design.
+
+# GLS Waveform
+
+<img width="1920" alt="gllss waveform" src="https://github.com/user-attachments/assets/4165e3ae-8a84-4f55-be2c-d699891a797e" />
+
+# 6. RTL vs GLS Comparison
+The RTL and GLS waveforms were compared to verify that the synthesized design maintains the expected functional behavior.
+
+[RTL VS GLS WAVEFORM.pdf](https://github.com/user-attachments/files/31844534/RTL.VS.GLS.WAVEFORM.pdf)
+
+
