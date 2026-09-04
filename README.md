@@ -83,4 +83,12 @@ The RTL and GLS waveforms were compared to verify that the synthesized design ma
 
 [RTL VS GLS WAVEFORM.pdf](https://github.com/user-attachments/files/31844534/RTL.VS.GLS.WAVEFORM.pdf)
 
+# 7. Overall Result
+The Sequence Detector was successfully designed, simulated, synthesized, and verified through Gate-Level Simulation.
+
+The RTL simulation and GLS results were compared, and the expected sequence detection behavior was observed.
+
+# 8. Conclusion
+The Assessment 1 work successfully demonstrated the complete RTL-to-GLS flow for a Verilog-based Sequence Detector. The design was verified through RTL simulation, synthesized using Yosys, and validated through Gate-Level Simulation using the generated netlist.
+
 
