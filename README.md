@@ -40,9 +40,9 @@ Git and GitHub
 The sequence detector was designed using Verilog HDL based on a finite state machine (FSM) approach.
 
 # Design Files
-```\
+```verilog/
 verilog design
 sequence_detector.v
 tb.v
 synthesized.v
-```\
+```
